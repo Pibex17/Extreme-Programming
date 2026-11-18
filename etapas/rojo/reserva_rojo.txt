@@ -1,0 +1,12 @@
+package reservas
+
+// Reserva contiene un intervalo de horas enteras [Inicio, Fin).
+type Reserva struct {
+    Inicio int
+    Fin    int
+}
+
+// Versión incorrecta para iniciar el ciclo ROJO.
+func SeSuperponen(a, b Reserva) bool {
+    return false
+}

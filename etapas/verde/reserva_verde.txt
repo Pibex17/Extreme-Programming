@@ -1,0 +1,18 @@
+package reservas
+
+// Reserva contiene un intervalo de horas enteras [Inicio, Fin).
+type Reserva struct {
+    Inicio int
+    Fin    int
+}
+
+// Versión VERDE: ya satisface los casos de prueba.
+func SeSuperponen(a, b Reserva) bool {
+    if a.Inicio >= b.Fin {
+        return false
+    }
+    if b.Inicio >= a.Fin {
+        return false
+    }
+    return true
+}

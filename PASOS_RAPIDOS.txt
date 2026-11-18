@@ -1,0 +1,11 @@
+1. Abre carpeta Practica_XP_Reservas en VS Code.
+2. Terminal Git Bash: go version
+3. ROJO: bash scripts/cambiar_etapa.sh rojo     -> esperar FAIL y tomar captura.
+4. VERDE: bash scripts/cambiar_etapa.sh verde   -> esperar PASS y tomar captura.
+5. REFACTOR: bash scripts/cambiar_etapa.sh refactor -> esperar PASS, tomar captura y comparar codigo.
+6. Resultado final: go run ./cmd/demo
+7. CI: subir a GitHub con REFACTOR activo; abrir Actions y tomar captura.
+8. SQL OPCIONAL en pgAdmin: 01_crear_esquema.sql -> 02_insertar_validas.sql -> 03_error_esperado.sql -> 04_verificar_sin_error.sql.
+9. Completar registro_parejas.txt y la sintesis Word.
+
+Leer README.md para detalles y advertencias.

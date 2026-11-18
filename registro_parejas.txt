@@ -1,0 +1,19 @@
+REGISTRO REAL DE PROGRAMACIÓN EN PAREJAS - EXTREME PROGRAMMING
+
+Fecha: ________________________
+Sesión 1: ROJO
+Conductor: ____________________  Observador: ____________________
+Cambio realizado: prueba de horarios superpuestos creada y ejecutada.
+Captura o commit: _________________________________________________
+
+Sesión 2: VERDE
+Conductor: ____________________  Observador: ____________________
+Cambio realizado: se corrigió la función SeSuperponen.
+Captura o commit: _________________________________________________
+
+Sesión 3: REFACTOR
+Conductor: ____________________  Observador: ____________________
+Cambio realizado: se simplificó la función y se repitieron las pruebas.
+Captura o commit: _________________________________________________
+
+Completar solo con los roles y ejecuciones realizados efectivamente.

@@ -1,0 +1,22 @@
+name: Pruebas XP con Go
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v7
+      - name: Configurar Go
+        uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: Ejecutar pruebas
+        run: go test -count=1 -v ./...
